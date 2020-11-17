@@ -1,0 +1,93 @@
+.media-module{
+    display: flex;
+    flex: 1;
+    height: 100%;
+    max-height: 100%;
+
+}
+.media-close-btn{
+    position: absolute;
+}
+.media-main{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.preview-file-bg{
+    background-color: transparent;
+    flex:0.75;
+    text-align: center;
+    height: calc(75vh - 180px);
+
+}
+
+
+.preview-file-bg img{
+    height: 75%;
+    width: 60%;
+    object-fit: contain;
+}
+
+.other-files{
+    flex:0.25;
+    display: flex;
+background: #44c4b8;
+ 
+}
+
+.files{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    flex:0.75;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.file{
+    height: 140px;
+    width: 140px;
+    margin: 10px;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    transition-duration: 200ms;
+}
+
+ 
+
+.file:hover {
+    box-shadow: inset 0px 9px 20px 5px #2e364a;
+    filter: drop-shadow(1px 4px 6px white);
+}
+ .send-btn-bg{
+    height: 100%;
+    width: 100%;
+    flex:0.25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .send-btn {
+    height: 30%;
+    width: 30%;
+    background-color: #2e364a;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, .75);
+    font-size: large;
+}
+
+.send-btn svg{
+    height: 20px;
+    width: 20px;
+}
+
+.send-btn:hover {
+    color:  #44c4b8 !important;
+}

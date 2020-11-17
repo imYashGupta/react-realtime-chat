@@ -1,0 +1,37 @@
+.invalid-feedback{
+    text-align: left;
+    font-size: 13px;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(200, 200, 200, 0.438) !important;
+    opacity: 1; /* Firefox */
+  }
+
+  body.dark input[type=email], body.dark select, body.dark textarea {
+    background-color: #2e364a;
+    color: rgba(255,255,255,.7);
+    border-color: #424a5e;
+}
+
+body.dark input[type=password], body.dark select, body.dark textarea {
+    background-color: #2e364a;
+    color: rgba(255,255,255,.7);
+    border-color: #424a5e;
+}
+
+.switch-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+  
+.switch-wrapper > div {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+

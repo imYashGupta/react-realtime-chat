@@ -1,0 +1,43 @@
+.layout .content .chat .chat-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    /* border-bottom: 2px solid #e1e1e1; */
+    padding: 10px;
+    align-items: center;
+    background-color: #26a69ad6;
+}
+.layout .content .chat .chat-header .chat-header-user {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.layout .content .chat .chat-header .chat-header-user figure {
+    margin-right: 1rem;
+}
+.layout .content .chat .chat-header .chat-header-user h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+    line-height: 1;
+}
+.layout .content .chat .chat-header .chat-header-action ul {
+    margin-bottom: 0;
+}
+.layout .content .chat .chat-header .chat-header-action ul > li > a {
+    font-size: 16px;
+}
